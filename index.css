@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("subwayStation2.jpeg");
+  background-size: cover;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #122a2f;
+  text-shadow: 0 0 1px white;
+  border-bottom: 4px solid #e95242;
+}
+
+h1 {
+  /* margin-top: 1em;
+    margin-bottom: .5em; */
+}
+
+h2 {
+  font-size: 3rem;
+  /* margin-top: 0;
+    margin-bottom: 1em; */
+}
+p {
+  text-shadow: 0 0 1px black;
+  color: white;
+}
+
+button {
+  border: none;
+
+  padding: 1em 2em;
+  color: white;
+  font-weight: bold;
+  width: 13em;
+
+  border-radius: 0.5em;
+}
+
+#increment-btn {
+  background: #e95242;
+  margin-right: 2em;
+}
+
+#save-btn {
+  background: #48555b;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: space-between; */
+  padding-top: 5em;
+}
+.btns {
+  display: inline-block;
+
+  margin-top: 2em;
+  text-align: center;
+  margin-bottom: 4.5em;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  
+  .btns{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    margin: 0 auto;
+  }
+}
